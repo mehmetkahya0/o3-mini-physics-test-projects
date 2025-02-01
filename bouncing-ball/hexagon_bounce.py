@@ -28,7 +28,7 @@ HEX_ANGULAR_SPEED = 0.35
 ball_pos = np.array([0.0, 0.0, 0.0])
 ball_vel = np.array([2.0, 5.0, 1.0])  # initial velocity
 
-hex_rotation = 50.0  # initial rotation angle
+hex_rotation = 0.0  # initial rotation angle
 
 
 def get_hexagon_vertices(rotation):
